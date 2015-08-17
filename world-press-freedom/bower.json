@@ -1,0 +1,25 @@
+{
+  "name": "d3-boilerplate",
+  "version": "0.1",
+  "homepage": "https://github.com/atestu/d3-boilerplate",
+  "authors": [
+    "Alexandre Testu <atestu@gmail.com>"
+  ],
+  "description": "Fork me to start a simple d3 project",
+  "main": "js/script.js",
+  "keywords": [
+    "d3",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.6"
+  }
+}

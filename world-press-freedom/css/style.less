@@ -1,0 +1,49 @@
+svg {
+    position: absolute;
+    left: 300px;
+    top: 0;
+    line {
+        fill: none;
+        stroke: lightgray;
+        &.hover {
+            stroke: black;
+        }
+    }
+}
+
+.list {
+    display: inline-block;
+    width: 300px;
+    margin-left: 300px;
+    &:first-child {
+        margin-left: 0;
+        text-align: right;
+    }
+}
+.country {
+    position: absolute;
+    font-size: 16px;
+    span {
+        display: inline-block;
+    }
+    color: darkgray;
+    .rank {
+        width: 30px;
+        text-align: right;
+        &:before {
+            content: '#';
+        }
+        // &:after {
+        //     content: '.';
+        // }
+    }
+    .name {
+        margin-left: 5px;
+        width: 270px
+    }
+
+    &.hover {
+        color: #333;
+        font-weight: bold;
+    }
+}
